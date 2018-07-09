@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="JUnitTest.ManualLoginTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="ManualLogin"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="fullScreenHeight"/>
+          <include name="fullScreenWidth"/>
+          <include name="windowOpened"/>
+          <include name="actionPerformed"/>
+          <include name="windowActivated"/>
+          <include name="windowClosing"/>
+          <include name="beforeClass"/>
+          <include name="windowClosed"/>
+        </methods>
+      </class> <!-- JUnitTest.ManualLoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

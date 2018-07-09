@@ -1,0 +1,3 @@
+<parameter name="sdate" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[$P!{sdate}]]>
